@@ -1,0 +1,109 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta
+name="description"
+content="The internet is entering its weirdest era yet."
+
+<title>The Internet Is Entering Its Weirdest Era Yet — Nightshift</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" > <link rel="stylesheet" href="styles.css"> <!-- Markdown parser --> <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> </head> <body> <header> <div class="container nav">
+  <a href="index.html" class="logo">
+    NIGHT<span>SHIFT</span>
+  </a>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="articles.html">Articles</a>
+    <a href="about.html">About</a>
+    <a href="index.html#newsletter">Newsletter</a>
+    <a href="index.html#newsletter" class="subscribe-btn">
+      Subscribe
+    </a>
+  </nav>
+
+</div>
+
+</header> <main>
+<article class="article-page">
+
+  <header class="article-header">
+
+    <div class="container article-header-inner">
+
+      <div class="tag">
+        Featured · Technology
+      </div>
+
+      <h1>
+        The internet is entering its weirdest era yet.
+      </h1>
+
+      <p class="article-deck">
+        AI is changing how we create, work, search, and communicate.
+        But beneath the hype, something much more interesting is happening.
+      </p>
+
+      <div class="post-meta article-meta">
+
+        <span class="author">
+          Alex Morgan
+        </span>
+
+        <span class="dot"></span>
+
+        <span>
+          Aug 24, 2026
+        </span>
+
+        <span class="dot"></span>
+
+        <span>
+          8 min read
+        </span>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <div class="container article-layout">
+
+    <div class="article-cover"></div>
+
+
+    <div class="article-body">
+
+      <div id="article-content"></div>
+
+    </div>
+
+  </div>
+
+</article>
+
+</main> <footer>
+<div class="container footer-inner">
+
+  <div>
+    © 2026 Nightshift. All rights reserved.
+  </div>
+
+  <div class="footer-links">
+
+    <a href="#">
+      Twitter
+    </a>
+
+    <a href="#">
+      Instagram
+    </a>
+
+    <a href="#">
+      RSS
+    </a>
+
+  </div>
+
+</div>
+
+</footer> <!-- ========================= ARTICLE MARKDOWN ========================== --> <script> const markdown = ` # The internet is entering its weirdest era yet. The internet has always been strange. But something feels different now. For decades, the web was built around the idea that people would create things, publish them, and then wait for other people to find them. That model is changing. ## The age of the answer Search engines taught us to ask questions. Social networks taught us to follow people. Now AI systems are beginning to give us something different: **Answers without destinations.** Instead of clicking through ten websites, we increasingly expect a single system to understand the question and synthesize a response. That sounds convenient. It is convenient. But convenience changes behavior. ## What happens to the open web? The interesting question isn't whether AI will replace search. The more interesting question is what happens to everything that existed because people were searching. Blogs. Forums. Documentation. Independent publications. Personal websites. The weird corners of the internet that never had millions of visitors but contained exactly the information someone needed. > The internet was never just a collection of answers. It was a collection of places. That distinction matters. ## A different kind of internet Perhaps the next version of the internet won't be less human. Perhaps it will become more personal. Imagine software that understands what you care about without needing to track what millions of other people care about. Imagine tools that adapt to you instead of asking you to adapt to them. Imagine a web where discovery becomes less about maximizing engagement and more about finding exactly the right thing. That's a much stranger future. And perhaps a better one. ## What comes next We're still very early. The technology is moving faster than our cultural understanding of it. That makes this moment interesting. The biggest changes may not come from the most impressive demos. They may come from the small shifts in behavior that happen quietly: How we search. How we write. How we learn. How we decide what deserves our attention. The internet is changing again. And this time, we're not entirely sure what it wants to become. `; document.getElementById("article-content").innerHTML = marked.parse(markdown); </script> </body> </html>
